@@ -144,7 +144,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://shot-tube.live",
+          href: "https://tubex.asharaf.me",
           icon: <Icons.globe className="size-3" />,
         }, 
         {
