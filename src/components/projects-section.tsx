@@ -13,10 +13,9 @@ interface ProjectsSectionProps {
 export function Projects({ delay }: ProjectsSectionProps) {
     const [activeTab, setActiveTab] = useState("works");
 
-    // For now, all projects are personal works
-    // You can add a 'type' field to your projects in the future to separate them
-    const personalProjects = DATA.projects;
-    const clientProjects: (typeof DATA.projects[0])[] = []; // Empty for now
+    const personalTitles = ["TubeX", "Mystery Message", "Restaurant Table Booking System"];
+    const personalProjects = DATA.projects.filter(p => personalTitles.includes(p.title));
+    const clientProjects = DATA.projects.filter(p => !personalTitles.includes(p.title));
 
     const currentProjects = activeTab === "works" ? personalProjects : clientProjects;
 
