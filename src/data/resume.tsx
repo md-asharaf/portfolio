@@ -77,7 +77,7 @@ export const DATA = {
   work: [
     {
       company: "Techwithjoshi Pvt Ltd",
-      href: "https://techwithjoshi.com",
+      href: "https://techwithjoshi.in",
       badges: [],
       location: "Remote",
       title: "Full Stack Developer",
@@ -131,7 +131,7 @@ export const DATA = {
       dates: "Oct 2025 - March 2026",
       active: true,
       description:
-        "Built a comprehensive social networking platform featuring a massive virtual economy with user wallets, gifting, loyalty rewards, and referrals. Engineered robust live video streaming functionality and AI-driven moderation.",
+        "A social media app where users can earn rewards, send virtual gifts, and manage a digital wallet. It includes live video broadcasting and automated safety filters to keep the community secure.",
       technologies: [
         "Node.js",
         "MongoDB",
@@ -152,12 +152,29 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Pravesh Ecom",
+      href: "https://praveshtrade.in",
+      dates: "Oct 2025 - Dec 2025",
+      active: true,
+      description: "A complete online storefront that handles everything from browsing products and shopping carts, to processing orders and giving store owners detailed sales reports.",
+      technologies: ["Express.js", "Next.js", "MongoDB", "Redis", "Cloudinary"],
+      links: [
+        {
+          type: "Website",
+          href: "https://praveshtrade.in",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "https://ik.imagekit.io/yzxrxw4ib5/2026-07-31-150414_hyprshot.png",
+      video: "",
+    },
+    {
       title: "Engtuwa - College CMS",
       href: "https://engtuwa.org",
       dates: "Jan 2026 - March 2026",
       active: true,
       description:
-        "Built an end-to-end CMS bridging 36 diverse institutional operations including academics, facility management, and alumni networking with a complex relational database.",
+        "A comprehensive digital hub for colleges that manages daily operations like grading, facility booking, and student records, keeping staff and alumni connected in one place.",
       technologies: [
         "NestJS",
         "PostgreSQL",
@@ -176,12 +193,46 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Ram Pharmacy",
+      href: "https://rampharmacy.vercel.app",
+      dates: "2025 - 2026",
+      active: true,
+      description: "A specialized management system for medical colleges. It includes an easy-to-use tool that lets administrators create and update web pages without needing to write any code.",
+      technologies: ["Bun", "TypeScript", "Express", "MongoDB", "Resend", "Cloudinary"],
+      links: [
+        {
+          type: "Website",
+          href: "https://rampharmacy.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "https://ik.imagekit.io/yzxrxw4ib5/2026-05-27-113041_hyprshot.png",
+      video: "",
+    },
+    {
+      title: "QRyzen",
+      href: "https://qryzen.com",
+      dates: "2025 - 2026",
+      active: true,
+      description: "A platform that helps businesses instantly create large batches of QR codes. It tracks every scan and provides detailed insights to help users understand their audience.",
+      technologies: ["Node.js", "Express", "MongoDB", "MySQL", "Redis", "PayU"],
+      links: [
+        {
+          type: "Website",
+          href: "https://qryzen.com",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "https://ik.imagekit.io/yzxrxw4ib5/2026-07-31-150240_hyprshot.png",
+      video: "",
+    },
+    {
       title: "Credit Reporting Platform",
-      href: "https://cibiltwj.vercel.app",
+      href: "https://cibilgst.vercel.app",
       dates: "Jan 2026 - March 2026",
       active: true,
       description:
-        "Optimized the foundational server architecture to maximize hardware utilization, ensuring 99.9% uptime and auto-recovery from failures. Built automated subscription billing workflows and Two-Factor Authentication.",
+        "A secure financial portal for accessing credit reports. It features safe login methods, automatic subscription billing, and is designed to be available 24/7 without interruptions.",
       technologies: [
         "Node.js",
         "TypeScript",
@@ -192,7 +243,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://cibiltwj.vercel.app",
+          href: "https://cibilgst.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -205,7 +256,7 @@ export const DATA = {
       dates: "Mar 2024 - Feb 2025",
       active: true,
       description:
-        "Engineered a large-scale video sharing platform guaranteeing smooth adaptive streaming quality directly influenced by user bandwidth constraints, with automated media processing pipelines.",
+        "A video-sharing website that automatically adjusts video quality based on a viewer's internet speed, ensuring videos play smoothly without buffering.",
       technologies: [
         "React",
         "Express",
@@ -230,54 +281,20 @@ export const DATA = {
       video: "",
     },
     {
-      title: "QRyzen",
-      href: "https://qryzen.com",
-      dates: "2025 - 2026",
-      active: true,
-      description: "A comprehensive QR code SaaS platform featuring dual database architecture (MySQL and MongoDB) to manage complex analytics and high-volume code generation.",
-      technologies: ["Node.js", "Express", "MongoDB", "MySQL", "Redis", "PayU"],
-      links: [
-        {
-          type: "Website",
-          href: "https://qryzen.com",
-          icon: <Icons.globe className="size-3" />,
-        }
-      ],
-      image: "https://ik.imagekit.io/yzxrxw4ib5/2026-07-31-150240_hyprshot.png",
-      video: "",
-    },
-    {
-      title: "Pravesh Ecom",
-      href: "https://praveshtrade.in",
-      dates: "Oct 2025 - Dec 2025",
-      active: true,
-      description: "A full e-commerce platform with 18 backend modules covering product catalog, shopping cart, order management, brand navigation, and admin analytics.",
-      technologies: ["Express.js", "Next.js", "MongoDB", "Redis", "Cloudinary"],
-      links: [
-        {
-          type: "Website",
-          href: "https://praveshtrade.in",
-          icon: <Icons.globe className="size-3" />,
-        }
-      ],
-      image: "https://ik.imagekit.io/yzxrxw4ib5/2026-07-31-150414_hyprshot.png",
-      video: "",
-    },
-    {
       title: "Impact Leader",
-      href: "https://leader.techwithjoshi.in",
+      href: "https://leader.techwithjoshi.in/api-docs",
       dates: "2025 - 2026",
       active: true,
-      description: "A professional networking platform built with a robust backend to handle real-time interactions, data storage, and scalable architecture.",
+      description: "A professional networking platform where users can connect, share ideas, and chat instantly, built to stay fast and responsive as the user base grows.",
       technologies: ["Node.js", "Express", "MongoDB", "Redis", "AWS S3", "Socket.IO"],
       links: [
         {
           type: "Website",
-          href: "https://leader.techwithjoshi.in",
+          href: "https://leader.techwithjoshi.in/api-docs",
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      image: "",
+      image: "https://ik.imagekit.io/yzxrxw4ib5/2026-07-31-152515_hyprshot.png",
       video: "",
     },
     {
@@ -285,7 +302,7 @@ export const DATA = {
       href: "https://restaurant-table-booking-jq1q.onrender.com/api/docs",
       dates: "Apr 2024",
       active: false,
-      description: "A RESTful backend system for restaurant table reservations with role-based access control, JWT authentication, and multi-device session management.",
+      description: "An online reservation system that allows customers to book restaurant tables from their phones or computers, while securely managing user accounts.",
       technologies: ["Nest.js", "PostgreSQL", "Prisma", "Passport", "JWT"],
       links: [
         {
@@ -303,28 +320,11 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Ram Pharmacy",
-      href: "https://rampharmacy.vercel.app",
-      dates: "2025 - 2026",
-      active: true,
-      description: "An e-commerce system specifically tailored for pharmaceutical operations, featuring automated rate limiting, secure payments, and modern authentication.",
-      technologies: ["Bun", "TypeScript", "Express", "MongoDB", "Resend", "Cloudinary"],
-      links: [
-        {
-          type: "Website",
-          href: "https://rampharmacy.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        }
-      ],
-      image: "https://ik.imagekit.io/yzxrxw4ib5/2026-05-27-113041_hyprshot.png",
-      video: "",
-    },
-    {
       title: "Mystery Message",
       href: "https://next-mystery-message.vercel.app",
       dates: "July 2024 - Aug 2024",
       active: true,
-      description: "An anonymous messaging platform where users can send and receive messages through unique usernames. Features AI-powered message suggestions and secure authentication.",
+      description: "A messaging platform where people can chat anonymously through unique usernames, featuring a smart AI assistant that suggests creative replies.",
       technologies: ["Next.js", "NextAuth", "MongoDB", "Gemini AI", "TailwindCSS"],
       links: [
         {

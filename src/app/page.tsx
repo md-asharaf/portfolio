@@ -195,6 +195,8 @@ export default function Page() {
                 Want to chat? Just shoot me a dm{" "}
                 <Link
                   href={DATA.contact.social.X.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-[#458588] hover:underline"
                 >
                   with a direct question on twitter
@@ -202,6 +204,8 @@ export default function Page() {
                 or{" "}
                 <Link
                   href={DATA.contact.social.Discord.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-[#b16286] hover:underline"
                 >
                   message me on Discord

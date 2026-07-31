@@ -58,7 +58,7 @@ export function HackathonCard({
       {links && links.length > 0 && (
         <div className="mt-2 flex flex-row flex-wrap items-start gap-2">
           {links?.map((link, idx) => (
-            <Link href={link.href} key={idx}>
+            <Link href={link.href} key={idx} target="_blank" rel="noopener noreferrer">
               <Badge key={idx} title={link.title} className="flex gap-2 px-3 py-2 text-xs font-semibold bg-transparent text-black border-black/50 hover:text-green-500 hover:border-green-500 dark:text-white dark:border-white/50 dark:hover:text-green- dark:hover:border-green-500 transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105" variant="outline">
                 {link.icon}
                 {link.title}
