@@ -34,7 +34,7 @@ export default function Page() {
                 <div className="flex flex-wrap gap-2 mt-1">
                   <Badge variant="outline" className="flex items-center gap-1 hover:border-[#ff6188] transition-colors group cursor-pointer">
                     <svg className="size-3 transition-colors group-hover:text-[#ff6188]" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/>
+                      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor" />
                     </svg>
                     <span className="transition-colors group-hover:text-[#ff6188]">
                       {DATA.location}
@@ -125,11 +125,23 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Skills</h2>
           </BlurFade>
-          <div className="flex flex-wrap gap-1">
-            {DATA.skills.map((skill, id) => (
-              <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <Badge key={skill} variant="outline" className="bg-transparent text-black border-black/30 hover:bg-[#ff6188] hover:text-white hover:border-[#ff6188] dark:text-white dark:border-white/30 dark:hover:bg-[#ff6188] dark:hover:text-white dark:hover:border-[#ff6188] transition-colors duration-200">{skill}</Badge>
-              </BlurFade>
+          <div className="flex flex-col gap-y-6">
+            {DATA.skills.map((skillCategory, categoryId) => (
+              <div key={skillCategory.category} className="flex flex-col gap-y-2">
+                <BlurFade delay={BLUR_FADE_DELAY * 10 + categoryId * 0.05}>
+                  <h3 className="text-lg font-semibold">{skillCategory.category}</h3>
+                </BlurFade>
+                <div className="flex flex-wrap gap-2">
+                  {skillCategory.items.map((skill, id) => (
+                    <BlurFade key={skill.name} delay={BLUR_FADE_DELAY * 11 + categoryId * 0.05 + id * 0.05}>
+                      <Badge variant="outline" className="flex items-center gap-2 bg-transparent text-black border-black/30 hover:bg-[#ff6188] hover:text-white hover:border-[#ff6188] dark:text-white dark:border-white/30 dark:hover:bg-[#ff6188] dark:hover:text-white dark:hover:border-[#ff6188] transition-colors duration-200 py-1.5 px-3">
+                        <img src={skill.icon} alt={skill.name} className="w-5 h-5 object-contain" />
+                        <span>{skill.name}</span>
+                      </Badge>
+                    </BlurFade>
+                  ))}
+                </div>
+              </div>
             ))}
           </div>
         </div>

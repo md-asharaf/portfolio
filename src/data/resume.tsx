@@ -13,22 +13,60 @@ export const DATA = {
     "Backend-focused Software Engineer with production experience architecting scalable web platforms and APIs. I specialize in the Node.js ecosystem, TypeScript, and Go, with a strong background in complex database design, real-time messaging, and secure financial workflows. My recent work involves delivering high-traffic client systems end-to-end, optimizing server performance, and standardizing containerized cloud deployments.",
   avatarUrl: "https://ik.imagekit.io/yzxrxw4ib5/profile_2QzwM9QJt?updatedAt=1753862646104",
   skills: [
-    "React",
-    "Next.js",
-    "Node.js",
-    "Nest.js",
-    "Express.js",
-    "GraphQL",
-    "Kafka",
-    "Redis",
-    "Postgres",
-    "MongoDB",
-    "Docker",
-    "Typescript",
-    "Python",
-    "Java",
-    "C++",
-    "Go",
+    {
+      category: "Languages",
+      items: [
+        { name: "TypeScript", icon: "https://skillicons.dev/icons?i=ts" },
+        { name: "JavaScript", icon: "https://skillicons.dev/icons?i=js" },
+        { name: "Java", icon: "https://skillicons.dev/icons?i=java" },
+        { name: "PHP", icon: "https://skillicons.dev/icons?i=php" },
+        { name: "Go", icon: "https://skillicons.dev/icons?i=go" },
+        { name: "Python", icon: "https://skillicons.dev/icons?i=py" },
+        { name: "C/C++", icon: "https://skillicons.dev/icons?i=cpp" },
+      ]
+    },
+    {
+      category: "Frontend",
+      items: [
+        { name: "React.js", icon: "https://skillicons.dev/icons?i=react" },
+        { name: "Next.js", icon: "https://skillicons.dev/icons?i=nextjs" },
+        { name: "Redux Toolkit", icon: "https://skillicons.dev/icons?i=redux" },
+        { name: "TanStack Query", icon: "https://cdn.simpleicons.org/reactquery/FF4154" },
+        { name: "HTML5", icon: "https://skillicons.dev/icons?i=html" },
+        { name: "TailwindCSS", icon: "https://skillicons.dev/icons?i=tailwind" },
+      ]
+    },
+    {
+      category: "Backend",
+      items: [
+        { name: "Express.js", icon: "https://skillicons.dev/icons?i=express" },
+        { name: "NestJS", icon: "https://skillicons.dev/icons?i=nestjs" },
+        { name: "Spring Boot & Microservices", icon: "https://skillicons.dev/icons?i=spring" },
+        { name: "JWT", icon: "https://cdn.simpleicons.org/jsonwebtokens/808080" },
+        { name: "WebSocket", icon: "https://cdn.simpleicons.org/socketdotio/808080" },
+        { name: "WebRTC", icon: "https://cdn.simpleicons.org/webrtc/808080" },
+        { name: "GraphQL", icon: "https://skillicons.dev/icons?i=graphql" },
+        { name: "REST APIs", icon: "https://cdn.simpleicons.org/fastapi/009688" },
+      ]
+    },
+    {
+      category: "Databases",
+      items: [
+        { name: "PostgreSQL", icon: "https://skillicons.dev/icons?i=postgres" },
+        { name: "MongoDB", icon: "https://skillicons.dev/icons?i=mongodb" },
+        { name: "MySQL", icon: "https://skillicons.dev/icons?i=mysql" },
+        { name: "Redis", icon: "https://skillicons.dev/icons?i=redis" },
+      ]
+    },
+    {
+      category: "Cloud & Infra",
+      items: [
+        { name: "AWS", icon: "https://skillicons.dev/icons?i=aws" },
+        { name: "Docker", icon: "https://skillicons.dev/icons?i=docker" },
+        { name: "RabbitMQ", icon: "https://skillicons.dev/icons?i=rabbitmq" },
+        { name: "Kafka", icon: "https://skillicons.dev/icons?i=kafka" },
+      ]
+    }
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
