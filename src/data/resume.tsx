@@ -148,7 +148,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "https://ik.imagekit.io/yzxrxw4ib5/2026-05-27-112845_hyprshot.png",
       video: "",
     },
     {
@@ -172,7 +172,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "https://ik.imagekit.io/yzxrxw4ib5/2026-05-27-112952_hyprshot.png",
       video: "",
     },
     {
@@ -196,7 +196,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "https://ik.imagekit.io/yzxrxw4ib5/2026-05-27-113449_hyprshot.png",
       video: "",
     },
     {
@@ -230,7 +230,7 @@ export const DATA = {
       video: "",
     },
     {
-      title: "QRFY",
+      title: "QRyzen",
       href: "https://qryzen.com",
       dates: "2025 - 2026",
       active: true,
@@ -243,7 +243,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      image: "",
+      image: "https://ik.imagekit.io/yzxrxw4ib5/2026-07-31-150240_hyprshot.png",
       video: "",
     },
     {
@@ -260,7 +260,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      image: "",
+      image: "https://ik.imagekit.io/yzxrxw4ib5/2026-07-31-150414_hyprshot.png",
       video: "",
     },
     {
@@ -316,7 +316,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      image: "",
+      image: "https://ik.imagekit.io/yzxrxw4ib5/2026-05-27-113041_hyprshot.png",
       video: "",
     },
     {
