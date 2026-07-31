@@ -4,7 +4,7 @@ import { HomeIcon } from "lucide-react";
 export const DATA = {
   name: "Md Asharaf",
   initials: "MA",
-  url: "https://asharaf.me",
+  url: "https://asharaf.tech",
   location: "Jhanjharpur, Bihar",
   locationLink: "https://www.google.com/maps/place/Jhanjharpur",
   description:
@@ -201,7 +201,7 @@ export const DATA = {
     },
     {
       title: "TubeX",
-      href: "https://tubex.asharaf.me",
+      href: "https://tubex.asharaf.tech",
       dates: "Mar 2024 - Feb 2025",
       active: true,
       description:
@@ -217,7 +217,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://tubex.asharaf.me",
+          href: "https://tubex.asharaf.tech",
           icon: <Icons.globe className="size-3" />,
         },
         {
