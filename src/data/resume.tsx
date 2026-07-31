@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Backend-focused Software Engineer. I love building scalable systems and solving complex problems.",
   summary:
-    "Backend-focused Software Engineer with production experience architecting scalable web platforms and APIs. I specialize in the Node.js ecosystem, TypeScript, and Go, with a strong background in complex database design, real-time messaging, and secure financial workflows. My recent work involves delivering high-traffic client systems end-to-end, optimizing server performance, and standardizing containerized cloud deployments.",
+    "Backend-focused Software Engineer with production experience architecting scalable web platforms and APIs. I specialize in the Node.js and Spring Boot ecosystems, with a strong background in complex database design, real-time messaging, and secure financial workflows. My recent work involves delivering high-traffic client systems end-to-end, optimizing server performance, and standardizing containerized cloud deployments.",
   avatarUrl: "https://ik.imagekit.io/yzxrxw4ib5/profile_2QzwM9QJt?updatedAt=1753862646104",
   skills: [
     {
@@ -116,7 +116,7 @@ export const DATA = {
     {
       company: "Techwithjoshi Pvt Ltd",
       href: "https://techwithjoshi.in",
-      badges: [],
+      badges: ["intern"],
       location: "Remote",
       title: "Full Stack Developer",
       logoUrl: "https://ik.imagekit.io/yzxrxw4ib5/techwithjoshi.jpg",
@@ -130,7 +130,7 @@ export const DATA = {
       href: "https://techsolace.in",
       badges: ["intern"],
       location: "Remote",
-      title: "Backend Developer Intern",
+      title: "Backend Developer",
       logoUrl: "https://ik.imagekit.io/yzxrxw4ib5/techsolace.jpg?updatedAt=1753858721765",
       start: "June 2025",
       end: "Sep 2025",
@@ -142,7 +142,7 @@ export const DATA = {
       badges: ["intern"],
       href: "https://www.nazrasoftware.com",
       location: "Remote",
-      title: "Full-Stack Developer Intern",
+      title: "Full Stack Developer",
       logoUrl: "https://ik.imagekit.io/yzxrxw4ib5/nazrasoft.png?updatedAt=1753858703718",
       start: "Oct 2024",
       end: "Mar 2025",
