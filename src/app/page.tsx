@@ -135,7 +135,14 @@ export default function Page() {
                   {skillCategory.items.map((skill, id) => (
                     <BlurFade key={skill.name} delay={BLUR_FADE_DELAY * 11 + categoryId * 0.05 + id * 0.05}>
                       <Badge variant="outline" className="flex items-center gap-2 bg-transparent text-black border-black/30 hover:bg-[#ff6188] hover:text-white hover:border-[#ff6188] dark:text-white dark:border-white/30 dark:hover:bg-[#ff6188] dark:hover:text-white dark:hover:border-[#ff6188] transition-colors duration-200 py-1.5 px-3">
-                        <img src={skill.icon} alt={skill.name} className="w-5 h-5 object-contain" />
+                        {skill.icon.includes("skillicons") ? (
+                          <>
+                            <img src={`${skill.icon}&theme=light`} alt={skill.name} className="w-5 h-5 object-contain dark:hidden" />
+                            <img src={`${skill.icon}&theme=dark`} alt={skill.name} className="w-5 h-5 object-contain hidden dark:block" />
+                          </>
+                        ) : (
+                          <img src={skill.icon} alt={skill.name} className="w-5 h-5 object-contain" />
+                        )}
                         <span>{skill.name}</span>
                       </Badge>
                     </BlurFade>
