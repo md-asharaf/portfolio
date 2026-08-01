@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
@@ -24,7 +25,7 @@ export default function Page() {
             <div className="flex-col flex flex-1 space-y-1.5">
               <BlurFade delay={BLUR_FADE_DELAY} yOffset={8}>
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                  Hi, I'm <span className="bg-gradient-to-r from-[#ff6188] via-[#ffd866] to-[#a9dc76] bg-clip-text text-transparent animate-gradient-x">{DATA.name.split(" ")[1]}</span> 👋
+                  Hi, I&apos;m <span className="bg-gradient-to-r from-[#ff6188] via-[#ffd866] to-[#a9dc76] bg-clip-text text-transparent animate-gradient-x">{DATA.name.split(" ")[1]}</span> 👋
                 </h1>
               </BlurFade>
               <BlurFadeText

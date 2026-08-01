@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { ProjectCard } from "@/components/project-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import { DATA } from "@/data/resume";
@@ -12,6 +12,18 @@ interface ProjectsSectionProps {
 
 export function Projects({ delay }: ProjectsSectionProps) {
     const [activeTab, setActiveTab] = useState("works");
+
+    useEffect(() => {
+        const savedTab = localStorage.getItem("projects-tab");
+        if (savedTab === "works" || savedTab === "clients") {
+            setActiveTab(savedTab);
+        }
+    }, []);
+
+    const handleTabChange = (tab: string) => {
+        setActiveTab(tab);
+        localStorage.setItem("projects-tab", tab);
+    };
 
     const personalTitles = ["TubeX", "Mystery Message", "Restaurant Table Booking System"];
     const personalProjects = DATA.projects.filter(p => personalTitles.includes(p.title));
@@ -29,25 +41,25 @@ export function Projects({ delay }: ProjectsSectionProps) {
                             Featured Projects
                         </div>
                         {/* Tab Buttons */}
-                        <div className="flex justify-center space-x-1 bg-muted p-1 rounded-lg max-w-md mx-auto shadow-sm">
+                        <div className="flex justify-center space-x-2 bg-transparent dark:bg-white/5 border border-black/10 dark:border-white/10 p-1.5 rounded-xl max-w-md mx-auto shadow-md backdrop-blur-md">
                             <button
-                                onClick={() => setActiveTab("works")}
+                                onClick={() => handleTabChange("works")}
                                 className={cn(
-                                    "px-4 py-1 text-sm font-medium rounded-md transition-all duration-200",
+                                    "px-4 py-1.5 text-sm font-semibold rounded-lg transition-all duration-300",
                                     activeTab === "works"
-                                        ? "bg-background text-foreground shadow-sm"
-                                        : "text-muted-foreground hover:text-foreground"
+                                        ? "bg-[#ff6188] text-white shadow-[0_0_15px_rgba(255,97,136,0.4)]"
+                                        : "text-muted-foreground hover:text-foreground hover:bg-black/5 dark:hover:bg-white/10"
                                 )}
                             >
                                 My Works ({personalProjects.length})
                             </button>
                             <button
-                                onClick={() => setActiveTab("clients")}
+                                onClick={() => handleTabChange("clients")}
                                 className={cn(
-                                    "px-4 py-1 text-sm font-medium rounded-md transition-all duration-200",
+                                    "px-4 py-1.5 text-sm font-semibold rounded-lg transition-all duration-300",
                                     activeTab === "clients"
-                                        ? "bg-background text-foreground shadow-sm"
-                                        : "text-muted-foreground hover:text-foreground"
+                                        ? "bg-[#a9dc76] text-black shadow-[0_0_15px_rgba(169,220,118,0.4)]"
+                                        : "text-muted-foreground hover:text-foreground hover:bg-black/5 dark:hover:bg-white/10"
                                 )}
                             >
                                 Client Works ({clientProjects.length})
