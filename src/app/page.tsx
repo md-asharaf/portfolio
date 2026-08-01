@@ -22,7 +22,7 @@ export default function Page() {
             <div className="flex-col flex flex-1 space-y-1.5">
               <BlurFade delay={BLUR_FADE_DELAY} yOffset={8}>
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                  Hi, I&apos;m <span className="bg-gradient-to-r from-[#ff6188] via-[#ffd866] to-[#a9dc76] bg-clip-text text-transparent animate-gradient-x">{DATA.name.split(" ")[1]}</span> 👋
+                  Hi, I&apos;m <span className="bg-gradient-to-r from-[#b16286] via-[#d79921] to-[#458588] dark:from-[#ff6188] dark:via-[#ffd866] dark:to-[#a9dc76] bg-clip-text text-transparent animate-gradient-x">{DATA.name.split(" ")[1]}</span> 👋
                 </h1>
               </BlurFade>
               <BlurFadeText
@@ -220,7 +220,7 @@ export default function Page() {
                   href={DATA.contact.social.X.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#ff6188] hover:text-[#ffd866] hover:underline transition-colors duration-300 font-semibold inline-block hover:scale-105"
+                  className="text-[#b16286] dark:text-[#ff6188] hover:text-[#d79921] dark:hover:text-[#ffd866] hover:underline transition-colors duration-300 font-semibold inline-block hover:scale-105"
                 >
                   with a direct question on twitter
                 </Link>{" "}
@@ -229,7 +229,7 @@ export default function Page() {
                   href={DATA.contact.social.Discord.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#a9dc76] hover:text-[#ff6188] hover:underline transition-colors duration-300 font-semibold inline-block hover:scale-105"
+                  className="text-[#458588] dark:text-[#a9dc76] hover:text-[#b16286] dark:hover:text-[#ff6188] hover:underline transition-colors duration-300 font-semibold inline-block hover:scale-105"
                 >
                   message me on Discord
                 </Link>

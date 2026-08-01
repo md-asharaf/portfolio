@@ -79,131 +79,45 @@ export const GridBeamsBackground = ({
   const parentRef = useRef<HTMLDivElement>(null);
 
   const beams = [
-    // Left half (8 beams: 0-50vw)
     {
-      initialX: "3vw",
-      translateX: "3vw",
-      duration: 5.6, // 20% faster (7 * 0.8)
+      initialX: "10vw",
+      translateX: "10vw",
+      duration: 7,
       repeatDelay: 5,
       delay: 2,
+      className: "h-8 sm:h-10",
     },
     {
-      initialX: "9vw",
-      translateX: "9vw",
-      duration: 3.2, // fast
-      repeatDelay: 6,
-      delay: 1,
-      className: "h-8",
-    },
-    {
-      initialX: "15vw",
-      translateX: "15vw",
-      duration: 2.4, // 20% faster (3 * 0.8) - fast
+      initialX: "30vw",
+      translateX: "30vw",
+      duration: 4,
       repeatDelay: 8,
-      delay: 4,
+      delay: 1,
+      className: "h-12 hidden sm:block",
     },
     {
-      initialX: "21vw",
-      translateX: "21vw",
-      duration: 6.4, // medium-slow
-      repeatDelay: 4,
+      initialX: "50vw",
+      translateX: "50vw",
+      duration: 6,
+      repeatDelay: 6,
       delay: 3,
-      className: "h-10",
-    },
-    {
-      initialX: "27vw",
-      translateX: "27vw",
-      duration: 5.6, // 20% faster (7 * 0.8) - medium
-      repeatDelay: 3,
       className: "h-6",
     },
     {
-      initialX: "33vw",
-      translateX: "33vw",
-      duration: 8.8, // 20% faster (11 * 0.8) - slow
+      initialX: "70vw",
+      translateX: "70vw",
+      duration: 5,
       repeatDelay: 9,
       delay: 4,
-      className: "h-20",
+      className: "h-10 hidden sm:block",
     },
     {
-      initialX: "39vw",
-      translateX: "39vw",
-      duration: 3.2, // 20% faster (4 * 0.8) - fast
-      repeatDelay: 4,
-      className: "h-12",
-    },
-    {
-      initialX: "45vw",
-      translateX: "45vw",
-      duration: 4.8, // 20% faster (6 * 0.8) - medium
+      initialX: "90vw",
+      translateX: "90vw",
+      duration: 8,
       repeatDelay: 7,
       delay: 2,
-      className: "h-6",
-    },
-    // Right half (8 beams: 51-97vw)
-    {
-      initialX: "51vw",
-      translateX: "51vw",
-      duration: 2.4, // 20% faster (3 * 0.8) - fast
-      repeatDelay: 6,
-      delay: 1,
-      className: "h-8",
-    },
-    {
-      initialX: "57vw",
-      translateX: "57vw",
-      duration: 5.6, // medium
-      repeatDelay: 5,
-      delay: 3,
-      className: "h-14",
-    },
-    {
-      initialX: "63vw",
-      translateX: "63vw",
-      duration: 6.4, // medium-slow
-      repeatDelay: 5,
-      delay: 3,
-      className: "h-10",
-    },
-    {
-      initialX: "69vw",
-      translateX: "69vw",
-      duration: 3.6, // fast
-      repeatDelay: 4,
-      delay: 5,
-      className: "h-4",
-    },
-    {
-      initialX: "75vw",
-      translateX: "75vw",
-      duration: 8.8, // slow
-      repeatDelay: 8,
-      delay: 2,
-      className: "h-20",
-    },
-    {
-      initialX: "81vw",
-      translateX: "81vw",
-      duration: 4.8, // medium
-      repeatDelay: 6,
-      delay: 1,
-      className: "h-12",
-    },
-    {
-      initialX: "87vw",
-      translateX: "87vw",
-      duration: 2.4, // fast
-      repeatDelay: 6,
-      delay: 4,
-      className: "h-14",
-    },
-    {
-      initialX: "93vw",
-      translateX: "93vw",
-      duration: 5.6, // medium
-      repeatDelay: 7,
-      delay: 1,
-      className: "h-8",
+      className: "h-14 sm:h-20",
     },
   ];
 
