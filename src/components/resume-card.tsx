@@ -41,7 +41,7 @@ export const ResumeCard = ({
   };
 
   return (
-    <Card className="flex bg-transparent dark:bg-white/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-[#ff6188]/20 backdrop-blur-md border border-black/10 dark:border-white/10" >
+    <Card className="flex bg-transparent transition-all duration-300 hover:shadow-md hover:shadow-[#ff6188]/5 backdrop-blur-sm" >
       <div className="flex-none">
         <Avatar className="border size-12 m-auto bg-muted-background dark:bg-foreground">
           <AvatarImage
