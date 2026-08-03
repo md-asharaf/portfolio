@@ -12,6 +12,7 @@ export const DATA = {
   summary:
     "Backend-focused Software Engineer with production experience architecting scalable web platforms and APIs. I specialize in the Node.js and Spring Boot ecosystems, with a strong background in complex database design, real-time messaging, and secure financial workflows. My recent work involves delivering high-traffic client systems end-to-end, optimizing server performance, and standardizing containerized cloud deployments.",
   avatarUrl: "https://ik.imagekit.io/yzxrxw4ib5/profile_2QzwM9QJt?updatedAt=1753862646104",
+  resumeUrl: "https://drive.google.com/file/d/1Tt7F5S81vlFHbEF3v3MEU_HmjH_EOf30/view?usp=drive_link",
   skills: [
     {
       category: "Languages",
@@ -40,7 +41,7 @@ export const DATA = {
       category: "Backend",
       items: [
         { name: "Express.js", icon: "https://skillicons.dev/icons?i=express" },
-        { name: "NestJS", icon: "https://skillicons.dev/icons?i=nestjs" },
+        { name: "Nest.js", icon: "https://skillicons.dev/icons?i=nestjs" },
         { name: "Spring Boot & Microservices", icon: "https://skillicons.dev/icons?i=spring" },
         { name: "JWT", icon: "https://cdn.simpleicons.org/jsonwebtokens/808080" },
         { name: "WebSocket", icon: "https://cdn.simpleicons.org/socketdotio/808080" },
@@ -169,15 +170,22 @@ export const DATA = {
       dates: "Oct 2025 - March 2026",
       active: true,
       description:
-        "A social media app where users can earn rewards, send virtual gifts, and manage a digital wallet. It includes live video broadcasting and automated safety filters to keep the community secure.",
+        "A scalable live-streaming web application featuring real-time video, interactive AR face filters, live chat, and seamless payment integrations. Architected with a robust backend to smoothly handle high-concurrency real-time interactions and automated AI content moderation.",
       technologies: [
-        "Node.js",
+        "Next.js",
+        "TailwindCSS",
+        "Express.js",
         "MongoDB",
         "Redis",
-        "WebSockets",
+        "Cloudinary",
+        "WebSocket",
+        "WebRTC",
         "RabbitMQ",
-        "Docker",
-        "TensorFlow.js",
+        "Agora",
+        "Banuba",
+        "Razorpay",
+        "Paypal",
+        "TensorFlow.js"
       ],
       links: [
         {
@@ -194,8 +202,8 @@ export const DATA = {
       href: "https://praveshtrade.in",
       dates: "Oct 2025 - Dec 2025",
       active: true,
-      description: "A complete online storefront that handles everything from browsing products and shopping carts, to processing orders and giving store owners detailed sales reports.",
-      technologies: ["Express.js", "Next.js", "MongoDB", "Redis", "Cloudinary"],
+      description: "An e-commerce platform built to streamline online retail. It provides a smooth, intuitive shopping and checkout experience for customers, paired with a powerful administrative dashboard for the business owner to effortlessly manage inventory, process orders, and track sales performance.",
+      technologies: ["React.js", "Next.js", "TailwindCSS", "Express.js", "MongoDB", "Redis", "Cloudinary", "Google Translate API"],
       links: [
         {
           type: "Website",
@@ -212,13 +220,15 @@ export const DATA = {
       dates: "Jan 2026 - March 2026",
       active: true,
       description:
-        "A comprehensive digital hub for colleges that manages daily operations like grading, facility booking, and student records, keeping staff and alumni connected in one place.",
+        "A comprehensive digital campus platform for Engineering College Tuwa. It features an engaging public gateway for prospective students to explore academic programs and campus life, seamlessly integrated with a powerful administrative dashboard that streamlines daily institutional operations, announcements, and information management.",
       technologies: [
-        "NestJS",
+        "Next.js",
+        "TailwindCSS",
+        "Nest.js",
         "PostgreSQL",
         "Prisma",
-        "JWT",
-        "Docker",
+        "Resend",
+        "ImageKit"
       ],
       links: [
         {
@@ -235,8 +245,16 @@ export const DATA = {
       href: "https://rampharmacy.vercel.app",
       dates: "2025 - 2026",
       active: true,
-      description: "A specialized management system for medical colleges. It includes an easy-to-use tool that lets administrators create and update web pages without needing to write any code.",
-      technologies: ["Bun", "TypeScript", "Express", "MongoDB", "Resend", "Cloudinary"],
+      description:
+        "A comprehensive digital campus platform designed specifically for Ram Pharmacy Medical College. It provides prospective students with an engaging gateway to explore academic programs and campus life, while giving administrators a powerful, code-free dashboard to effortlessly manage website content, faculty profiles, and institutional announcements.",
+      technologies: [
+        "Next.js",
+        "TailwindCSS",
+        "Express.js",
+        "MongoDB",
+        "Prisma",
+        "Cloudinary"
+      ],
       links: [
         {
           type: "Website",
@@ -252,8 +270,8 @@ export const DATA = {
       href: "https://qryzen.com",
       dates: "2025 - 2026",
       active: true,
-      description: "A platform that helps businesses instantly create large batches of QR codes. It tracks every scan and provides detailed insights to help users understand their audience.",
-      technologies: ["Node.js", "Express", "MongoDB", "MySQL", "Redis", "PayU"],
+      description: "A collaborative platform for creating, managing, and tracking intelligent QR codes. It enables teams to organize digital assets—from business cards to marketing campaigns—and uses real-time analytics to transform physical interactions into measurable digital connections.",
+      technologies: ["React.js", "Express.js", "MongoDB", "MySQL", "PDFkit", "TinyMCE", "Redis", "PayU"],
       links: [
         {
           type: "Website",
@@ -270,13 +288,18 @@ export const DATA = {
       dates: "Jan 2026 - March 2026",
       active: true,
       description:
-        "A secure financial portal for accessing credit reports. It features safe login methods, automatic subscription billing, and is designed to be available 24/7 without interruptions.",
+        "A comprehensive credit assessment platform designed to empower individuals and businesses to navigate their financial health with confidence by intelligently synthesizing complex data—such as banking records and tax filings—into clear, actionable credit profiles, the system transforms overwhelming financial information into intuitive insights.",
       technologies: [
-        "Node.js",
-        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "Express.js",
         "MongoDB",
         "Redis",
-        "Razorpay",
+        "Resend",
+        "Sandbox API",
+        "2FA Authentication",
+        "Cloudflare Turnstile",
+        "Razorpay"
       ],
       links: [
         {
@@ -294,14 +317,20 @@ export const DATA = {
       dates: "Mar 2024 - Feb 2025",
       active: true,
       description:
-        "A video-sharing website that automatically adjusts video quality based on a viewer's internet speed, ensuring videos play smoothly without buffering.",
+        "A complete video platform built to provide a smooth watching experience and bring people together. It automatically adjusts video quality to match your internet speed, so you never have to deal with annoying loading screens. Beyond great streaming, the platform makes videos easier to enjoy with automatic English subtitles. It also keeps users connected with instant notifications, personal profiles, and a fun comment section. Backed by safe and secure accounts, it creates a welcoming space where creators can easily share their work and viewers can enjoy videos without any interruptions.",
       technologies: [
-        "React",
-        "Express",
+        "React.js",
+        "TailwindCSS",
+        "Express.js",
         "MongoDB",
-        "AWS",
+        "AWS S3",
+        "AWS ECS",
+        "AWS Lambda",
+        "AWS SQS",
         "Kafka",
         "FFmpeg",
+        "Whisper AI",
+        "WebSocket"
       ],
       links: [
         {
@@ -319,12 +348,41 @@ export const DATA = {
       video: "",
     },
     {
+      title: "BreatheESG",
+      href: "https://breatheesg.asharaf.tech",
+      dates: "2025",
+      active: true,
+      description:
+        "An enterprise carbon emissions management platform built for sustainability analysts. It ingests raw data files from multiple sources — energy bills, SAP fuel records, and business travel logs — automatically normalises units, categorises every record into GHG Scopes 1, 2, or 3, and calculates CO₂ equivalents. Built with strict multi-tenancy so each client company's data is completely isolated. Every edit an analyst makes is captured in an immutable audit trail with before-and-after diffs, mandatory comments, and record locking after approval, making the data fully auditable and safe for regulatory sign-off.",
+      technologies: [
+        "React.js",
+        "TailwindCSS",
+        "Django",
+        "SQLite",
+        "CSV Parser"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://breatheesg.asharaf.tech",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/md-asharaf/breatheesg",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "https://ik.imagekit.io/yzxrxw4ib5/swappy-20260804_022057.png",
+      video: "",
+    },
+    {
       title: "Impact Leader",
       href: "https://leader.techwithjoshi.in/api-docs",
       dates: "2025 - 2026",
       active: true,
-      description: "A professional networking platform where users can connect, share ideas, and chat instantly, built to stay fast and responsive as the user base grows.",
-      technologies: ["Node.js", "Express", "MongoDB", "Redis", "AWS S3", "Socket.IO"],
+      description: "A beautifully designed digital hub that empowers individuals to drive positive change. It provides organizers with a simple, welcoming space to share inspiring stories, guide discussions, and distribute resources.",
+      technologies: ["Next.js", "TailwindCSS", "Express.js", "MongoDB", "Redis", "AWS S3", "WebSocket", "Google Calendar API", "Gmail API", "Google OAuth"],
       links: [
         {
           type: "Website",
@@ -340,8 +398,8 @@ export const DATA = {
       href: "https://restaurant-table-booking-jq1q.onrender.com/api/docs",
       dates: "Apr 2024",
       active: false,
-      description: "An online reservation system that allows customers to book restaurant tables from their phones or computers, while securely managing user accounts.",
-      technologies: ["Nest.js", "PostgreSQL", "Prisma", "Passport", "JWT"],
+      description: "A seamless reservation platform that connects guests with their favorite restaurants. It allows customers to effortlessly book their preferred time slots online, while empowering restaurant owners to efficiently manage their dining spaces. The secure system automatically prevents double-bookings and minimizes wait times, ensuring a smooth and reliable experience for both guests and staff.",
+      technologies: ["Nest.js", "PostgreSQL", "Prisma", "Resend", "Passport OAuth"],
       links: [
         {
           type: "Website",
@@ -362,8 +420,8 @@ export const DATA = {
       href: "https://next-mystery-message.vercel.app",
       dates: "July 2024 - Aug 2024",
       active: true,
-      description: "A messaging platform where people can chat anonymously through unique usernames, featuring a smart AI assistant that suggests creative replies.",
-      technologies: ["Next.js", "NextAuth", "MongoDB", "Gemini AI", "TailwindCSS"],
+      description: "An anonymous chat platform where users communicate through unique usernames, supported by an AI-powered assistant that generates creative message suggestions.",
+      technologies: ["Next.js", "Tailwind CSS", "NextAuth", "MongoDB", "Gemini AI"],
       links: [
         {
           type: "Website",
