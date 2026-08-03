@@ -160,7 +160,7 @@ export const DATA = {
       start: "Aug 2022",
       end: "Jun 2026",
       location: "Bhubaneswar, Odisha",
-      badges: ["GPA: 7.66"],
+      badges: ["7.66/10"],
       description: "Completed Bachelor of Technology in Computer Science and Engineering focused on software development, data structures, algorithms, and modern programming technologies.",
     }
   ],

@@ -168,7 +168,7 @@ export function ProjectCard({
                 e.stopPropagation();
                 setPreviewOpen(true);
               }}
-              className="absolute top-2 right-2 z-10 flex items-center justify-center size-9 rounded-full bg-black/50 hover:bg-black/80 text-white opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-all duration-200 hover:scale-110"
+              className="absolute top-2 right-2 z-10 hidden sm:flex items-center justify-center size-9 rounded-full bg-black/50 hover:bg-black/80 text-white opacity-0 group-hover:opacity-100 transition-all duration-200 hover:scale-110"
               aria-label="Preview media"
               title="Preview"
             >
