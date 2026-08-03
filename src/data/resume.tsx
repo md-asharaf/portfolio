@@ -354,7 +354,7 @@ export const DATA = {
       dates: "2025",
       active: true,
       description:
-        "An enterprise carbon emissions management platform built for sustainability analysts. It ingests raw data files from multiple sources — energy bills, SAP fuel records, and business travel logs — automatically normalises units, categorises every record into GHG Scopes 1, 2, or 3, and calculates CO₂ equivalents. Built with strict multi-tenancy so each client company's data is completely isolated. Every edit an analyst makes is captured in an immutable audit trail with before-and-after diffs, mandatory comments, and record locking after approval, making the data fully auditable and safe for regulatory sign-off.",
+        "An enterprise carbon emissions management platform for sustainability analysts. It ingests raw data from energy bills, fuel records, and travel logs — automatically normalising units, categorising emissions into GHG Scopes 1–3, and calculating CO₂ equivalents. Every change is captured in an immutable audit trail with record locking, making the data fully auditable for regulatory sign-off.",
       technologies: [
         "React.js",
         "TailwindCSS",
