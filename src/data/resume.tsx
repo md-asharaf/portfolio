@@ -165,6 +165,7 @@ export const DATA = {
     }
   ],
   projects: [
+    // Client Projects
     {
       title: "Flinzo",
       href: "https://flinzo.org",
@@ -316,12 +317,31 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Impact Leader",
+      href: "https://leader.techwithjoshi.in/api-docs",
+      dates: "Nov 2025 - Mar 2026",
+      active: true,
+      type: "client",
+      description: "A beautifully designed digital hub that empowers individuals to drive positive change. It provides organizers with a simple, welcoming space to share inspiring stories, guide discussions, and distribute resources.",
+      technologies: ["Next.js", "TailwindCSS", "Express.js", "MongoDB", "Redis", "AWS S3", "WebSocket", "Google Calendar API", "Gmail API", "Google OAuth"],
+      links: [
+        {
+          type: "Website",
+          href: "https://leader.techwithjoshi.in/api-docs",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "https://ik.imagekit.io/yzxrxw4ib5/2026-07-31-152515_hyprshot.png",
+      video: "",
+    },
+    // Personal Projects
+    {
       title: "TubeX",
       href: "https://tubex.asharaf.tech",
       dates: "Mar 2024 - Feb 2025",
       active: true,
       type: "personal",
-      description: "A complete video platform built to provide a smooth watching experience and bring people together. It automatically adjusts video quality to match your internet speed, so you never have to deal with annoying loading screens. Beyond great streaming, the platform makes videos easier to enjoy with automatic English subtitles. It also keeps users connected with instant notifications, personal profiles, and a fun comment section. Backed by safe and secure accounts, it creates a welcoming space where creators can easily share their work and viewers can enjoy videos without any interruptions.",
+      description: "A complete video platform built for smooth streaming and community. It automatically adjusts video quality to match your internet speed, eliminating buffering. Videos come with automatic English subtitles for better accessibility, while instant notifications, personal profiles, and a comment section keep users connected. Backed by secure accounts, it creates a welcoming space where creators share their work and viewers enjoy uninterrupted playback.",
       technologies: [
         "React.js",
         "TailwindCSS",
@@ -379,24 +399,6 @@ export const DATA = {
         }
       ],
       image: "https://ik.imagekit.io/yzxrxw4ib5/swappy-20260804_022057.png",
-      video: "",
-    },
-    {
-      title: "Impact Leader",
-      href: "https://leader.techwithjoshi.in/api-docs",
-      dates: "Nov 2025 - Mar 2026",
-      active: true,
-      type: "client",
-      description: "A beautifully designed digital hub that empowers individuals to drive positive change. It provides organizers with a simple, welcoming space to share inspiring stories, guide discussions, and distribute resources.",
-      technologies: ["Next.js", "TailwindCSS", "Express.js", "MongoDB", "Redis", "AWS S3", "WebSocket", "Google Calendar API", "Gmail API", "Google OAuth"],
-      links: [
-        {
-          type: "Website",
-          href: "https://leader.techwithjoshi.in/api-docs",
-          icon: <Icons.globe className="size-3" />,
-        }
-      ],
-      image: "https://ik.imagekit.io/yzxrxw4ib5/2026-07-31-152515_hyprshot.png",
       video: "",
     },
     {
