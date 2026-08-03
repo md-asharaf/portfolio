@@ -117,6 +117,7 @@ export default function Page() {
                 altText={education.school}
                 title={education.school}
                 subtitle={education.degree}
+                badges={education.badges}
                 period={`${education.start} - ${education.end}`}
                 description={education.description}
               />
