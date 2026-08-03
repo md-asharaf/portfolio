@@ -61,7 +61,7 @@ function MediaPreviewModal({
       onClick={onClose}
     >
       <div
-        className="relative max-w-4xl w-full mx-4 rounded-xl overflow-hidden shadow-2xl"
+        className="relative max-w-[90vw] w-full mx-4 rounded-xl overflow-hidden shadow-2xl"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close button */}
@@ -84,13 +84,13 @@ function MediaPreviewModal({
             muted
             playsInline
             controls
-            className="w-full max-h-[80vh] object-contain bg-black"
+            className="w-full max-h-[90vh] object-contain bg-black"
           />
         ) : image ? (
           <img
             src={image}
             alt={title}
-            className="w-full max-h-[80vh] object-contain bg-black"
+            className="w-full max-h-[90vh] object-contain bg-black"
           />
         ) : null}
       </div>
@@ -160,7 +160,7 @@ export function ProjectCard({
             )}
           </Link>
 
-          {/* Preview button — top-left, appears on hover */}
+          {/* Preview button — top-right, appears on hover */}
           {hasMedia && (
             <button
               onClick={(e) => {
@@ -168,13 +168,12 @@ export function ProjectCard({
                 e.stopPropagation();
                 setPreviewOpen(true);
               }}
-              className="absolute top-2 left-2 z-10 flex items-center justify-center size-7 rounded-full bg-black/50 hover:bg-black/80 text-white opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-all duration-200 hover:scale-110"
+              className="absolute top-2 right-2 z-10 flex items-center justify-center size-9 rounded-full bg-black/50 hover:bg-black/80 text-white opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-all duration-200 hover:scale-110"
               aria-label="Preview media"
               title="Preview"
             >
-              <svg viewBox="0 0 24 24" className="size-3.5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
-                <circle cx="12" cy="12" r="3" />
+              <svg viewBox="0 0 24 24" className="size-5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
               </svg>
             </button>
           )}
