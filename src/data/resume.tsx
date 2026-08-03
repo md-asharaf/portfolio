@@ -122,7 +122,7 @@ export const DATA = {
       title: "Full Stack Developer",
       logoUrl: "https://ik.imagekit.io/yzxrxw4ib5/techwithjoshi.jpg",
       start: "Oct 2025",
-      end: "March 2026",
+      end: "Mar 2026",
       description:
         "Delivered 6+ production-ready web platforms across social media, fintech, e-commerce, and CRM domains. Engineered real-time features such as live streaming and instant messaging. Designed highly scalable database architectures to handle complex institutional data.",
     },
@@ -133,7 +133,7 @@ export const DATA = {
       location: "Remote",
       title: "Backend Developer",
       logoUrl: "https://ik.imagekit.io/yzxrxw4ib5/techsolace.jpg?updatedAt=1753858721765",
-      start: "June 2025",
+      start: "Jun 2025",
       end: "Sep 2025",
       description:
         "Contributed to the development of backend services in Go and Node.js for client-facing applications alongside senior engineers. Assisted in optimizing database queries and indexes, which contributed to a 20% reduction in API response times.",
@@ -158,7 +158,7 @@ export const DATA = {
       degree: "B.Tech in Computer Science and Engineering",
       logoUrl: "https://ik.imagekit.io/yzxrxw4ib5/kist.jpeg?updatedAt=1753858736541",
       start: "Aug 2022",
-      end: "present",
+      end: "Jun 2026",
       location: "Bhubaneswar, Odisha",
       badges: ["GPA: 7.66"],
       description: "Completed Bachelor of Technology in Computer Science and Engineering focused on software development, data structures, algorithms, and modern programming technologies.",
@@ -170,6 +170,7 @@ export const DATA = {
       href: "https://flinzo.org",
       dates: "Oct 2025 - March 2026",
       active: true,
+      type: "client",
       description:
         "A scalable live-streaming web application featuring real-time video, interactive AR face filters, live chat, and seamless payment integrations. Architected with a robust backend to smoothly handle high-concurrency real-time interactions and automated AI content moderation.",
       technologies: [
@@ -203,6 +204,7 @@ export const DATA = {
       href: "https://praveshtrade.in",
       dates: "Oct 2025 - Dec 2025",
       active: true,
+      type: "client",
       description: "An e-commerce platform built to streamline online retail. It provides a smooth, intuitive shopping and checkout experience for customers, paired with a powerful administrative dashboard for the business owner to effortlessly manage inventory, process orders, and track sales performance.",
       technologies: ["React.js", "Next.js", "TailwindCSS", "Express.js", "MongoDB", "Redis", "Cloudinary", "Google Translate API"],
       links: [
@@ -218,10 +220,10 @@ export const DATA = {
     {
       title: "Engtuwa - College CMS",
       href: "https://engtuwa.org",
-      dates: "Jan 2026 - March 2026",
+      dates: "Dec 2026 - March 2026",
       active: true,
-      description:
-        "A comprehensive digital campus platform for Engineering College Tuwa. It features an engaging public gateway for prospective students to explore academic programs and campus life, seamlessly integrated with a powerful administrative dashboard that streamlines daily institutional operations, announcements, and information management.",
+      type: "client",
+      description: "A comprehensive digital campus platform for Engineering College Tuwa. It features an engaging public gateway for prospective students to explore academic programs and campus life, seamlessly integrated with a powerful administrative dashboard that streamlines daily institutional operations, announcements, and information management.",
       technologies: [
         "Next.js",
         "TailwindCSS",
@@ -244,10 +246,10 @@ export const DATA = {
     {
       title: "Ram Pharmacy",
       href: "https://rampharmacy.vercel.app",
-      dates: "2025 - 2026",
+      dates: "Dec 2025 - Mar 2026",
       active: true,
-      description:
-        "A comprehensive digital campus platform designed specifically for Ram Pharmacy Medical College. It provides prospective students with an engaging gateway to explore academic programs and campus life, while giving administrators a powerful, code-free dashboard to effortlessly manage website content, faculty profiles, and institutional announcements.",
+      type: "client",
+      description: "A comprehensive digital campus platform designed specifically for Ram Pharmacy Medical College. It provides prospective students with an engaging gateway to explore academic programs and campus life, while giving administrators a powerful, code-free dashboard to effortlessly manage website content, faculty profiles, and institutional announcements.",
       technologies: [
         "Next.js",
         "TailwindCSS",
@@ -269,8 +271,9 @@ export const DATA = {
     {
       title: "QRyzen",
       href: "https://qryzen.com",
-      dates: "2025 - 2026",
+      dates: "Dec 2025 - Feb 2026",
       active: true,
+      type: "client",
       description: "A collaborative platform for creating, managing, and tracking intelligent QR codes. It enables teams to organize digital assets—from business cards to marketing campaigns—and uses real-time analytics to transform physical interactions into measurable digital connections.",
       technologies: ["React.js", "Express.js", "MongoDB", "MySQL", "PDFkit", "TinyMCE", "Redis", "PayU"],
       links: [
@@ -288,8 +291,8 @@ export const DATA = {
       href: "https://cibilgst.vercel.app",
       dates: "Jan 2026 - March 2026",
       active: true,
-      description:
-        "A comprehensive credit assessment platform designed to empower individuals and businesses to navigate their financial health with confidence by intelligently synthesizing complex data—such as banking records and tax filings—into clear, actionable credit profiles, the system transforms overwhelming financial information into intuitive insights.",
+      type: "client",
+      description: "A comprehensive credit assessment platform designed to empower individuals and businesses to navigate their financial health with confidence by intelligently synthesizing complex data—such as banking records and tax filings—into clear, actionable credit profiles, the system transforms overwhelming financial information into intuitive insights.",
       technologies: [
         "Next.js",
         "TailwindCSS",
@@ -317,8 +320,8 @@ export const DATA = {
       href: "https://tubex.asharaf.tech",
       dates: "Mar 2024 - Feb 2025",
       active: true,
-      description:
-        "A complete video platform built to provide a smooth watching experience and bring people together. It automatically adjusts video quality to match your internet speed, so you never have to deal with annoying loading screens. Beyond great streaming, the platform makes videos easier to enjoy with automatic English subtitles. It also keeps users connected with instant notifications, personal profiles, and a fun comment section. Backed by safe and secure accounts, it creates a welcoming space where creators can easily share their work and viewers can enjoy videos without any interruptions.",
+      type: "personal",
+      description: "A complete video platform built to provide a smooth watching experience and bring people together. It automatically adjusts video quality to match your internet speed, so you never have to deal with annoying loading screens. Beyond great streaming, the platform makes videos easier to enjoy with automatic English subtitles. It also keeps users connected with instant notifications, personal profiles, and a fun comment section. Backed by safe and secure accounts, it creates a welcoming space where creators can easily share their work and viewers can enjoy videos without any interruptions.",
       technologies: [
         "React.js",
         "TailwindCSS",
@@ -351,8 +354,9 @@ export const DATA = {
     {
       title: "BreatheESG",
       href: "https://breatheesg.asharaf.tech",
-      dates: "2025",
+      dates: "Jun 2026",
       active: true,
+      type: "personal",
       description:
         "An enterprise carbon emissions management platform for sustainability analysts. It ingests raw data from energy bills, fuel records, and travel logs — automatically normalising units, categorising emissions into GHG Scopes 1–3, and calculating CO₂ equivalents. Every change is captured in an immutable audit trail with record locking, making the data fully auditable for regulatory sign-off.",
       technologies: [
@@ -380,8 +384,9 @@ export const DATA = {
     {
       title: "Impact Leader",
       href: "https://leader.techwithjoshi.in/api-docs",
-      dates: "2025 - 2026",
+      dates: "Nov 2025 - Mar 2026",
       active: true,
+      type: "client",
       description: "A beautifully designed digital hub that empowers individuals to drive positive change. It provides organizers with a simple, welcoming space to share inspiring stories, guide discussions, and distribute resources.",
       technologies: ["Next.js", "TailwindCSS", "Express.js", "MongoDB", "Redis", "AWS S3", "WebSocket", "Google Calendar API", "Gmail API", "Google OAuth"],
       links: [
@@ -399,6 +404,7 @@ export const DATA = {
       href: "https://restaurant-table-booking-jq1q.onrender.com/api/docs",
       dates: "Apr 2024",
       active: false,
+      type: "personal",
       description: "A seamless reservation platform that connects guests with their favorite restaurants. It allows customers to effortlessly book their preferred time slots online, while empowering restaurant owners to efficiently manage their dining spaces. The secure system automatically prevents double-bookings and minimizes wait times, ensuring a smooth and reliable experience for both guests and staff.",
       technologies: ["Nest.js", "PostgreSQL", "Prisma", "Resend", "Passport OAuth"],
       links: [
@@ -419,10 +425,11 @@ export const DATA = {
     {
       title: "Mystery Message",
       href: "https://next-mystery-message.vercel.app",
-      dates: "July 2024 - Aug 2024",
+      dates: "Jul 2024 - Aug 2024",
       active: true,
+      type: "personal",
       description: "An anonymous chat platform where users communicate through unique usernames, supported by an AI-powered assistant that generates creative message suggestions.",
-      technologies: ["Next.js", "Tailwind CSS", "NextAuth", "MongoDB", "Gemini AI"],
+      technologies: ["Next.js", "TailwindCSS", "NextAuth", "MongoDB", "Gemini AI"],
       links: [
         {
           type: "Website",
@@ -441,8 +448,8 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Infosys Global Hackathon",
-      dates: "November 11th - 12th, 2024",
+      title: "Infosys Global Hackathon 2025",
+      dates: "Jul 11th - 12th, 2025",
       location: "Bhubaneswar, Odisha",
       description:
         "Developed a web application promoting rural tourism in India by connecting local artisans with tourists. The app allows users to book tours, buy local handicrafts, and learn about the culture and traditions of rural India.",

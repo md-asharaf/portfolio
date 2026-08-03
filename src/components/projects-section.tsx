@@ -25,9 +25,8 @@ export function Projects({ delay }: ProjectsSectionProps) {
         localStorage.setItem("projects-tab", tab);
     };
 
-    const personalTitles = ["TubeX", "Mystery Message", "Restaurant Table Booking System"];
-    const personalProjects = DATA.projects.filter(p => personalTitles.includes(p.title));
-    const clientProjects = DATA.projects.filter(p => !personalTitles.includes(p.title));
+    const personalProjects = DATA.projects.filter(p => p.type === "personal");
+    const clientProjects = DATA.projects.filter(p => p.type === "client");
 
     const currentProjects = activeTab === "works" ? personalProjects : clientProjects;
 
