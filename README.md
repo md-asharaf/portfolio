@@ -1,47 +1,54 @@
-<div align="center">
-<img alt="Portfolio" src="https://github.com/md-asharaf/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
-</div>
+# Md Asharaf - Personal Portfolio
 
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmd-asharaf%2Fportfolio)
+A minimal, interactive, and responsive personal portfolio built with modern web technologies. This repository hosts my personal website, showcasing my projects, skills, and professional experience as a Full Stack Software Engineer.
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
+## 🚀 Tech Stack
 
-# Features
+- **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
+- **Library**: [React 18](https://react.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/) & [Magic UI](https://magicui.design/)
+- **Components**: [Radix UI](https://www.radix-ui.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Deployment**: Vercel (Recommended)
 
-- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
-- Includes a blog
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+## 🛠️ Getting Started
 
-# Getting Started Locally
+First, clone the repository and install the dependencies:
 
-1. Clone this repository to your local machine:
+```bash
+git clone https://github.com/md-asharaf/portfolio.git
+cd portfolio
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
 
-   ```bash
-   git clone https://github.com/md-asharaf/portfolio
-   ```
+Then, run the development server:
 
-2. Move to the cloned directory
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-   ```bash
-   cd portfolio
-   ```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-3. Install dependencies:
+## 📁 Project Structure
 
-   ```bash
-   pnpm install
-   ```
+- `src/app` - Next.js App Router pages and layouts.
+- `src/components` - Reusable React components (UI, layout, Magic UI).
+- `src/data` - Static data files (e.g., `resume.tsx`) for easily updating portfolio content.
+- `src/lib` - Utility functions and helpers.
 
-4. Start the local Server:
+## 📝 Customization
 
-   ```bash
-   pnpm dev
-   ```
+You can easily update the portfolio content by modifying the `src/data/resume.tsx` file. It acts as a single source of truth for your personal details, skills, projects, and work experience.
 
-5. Open the [Config file](./src/data/resume.tsx) and make changes
+## 📄 License
 
-# License
-
-Licensed under the [MIT license](https://github.com/md-asharaf/portfolio/blob/main/LICENSE.md).
+This project is open-source and available under the [MIT License](LICENSE).
