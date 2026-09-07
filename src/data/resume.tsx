@@ -140,7 +140,7 @@ export const DATA = {
       badges: ["intern"],
       location: "Remote",
       title: "Full Stack Developer",
-      logoUrl: "/assets/images/techwithjoshi.jpg",
+      logoUrl: "/assets/images/techwithjoshi.svg",
       start: "Oct 2025",
       end: "Mar 2026",
       description:
