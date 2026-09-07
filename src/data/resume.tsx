@@ -394,7 +394,7 @@ export const DATA = {
     {
       title: "FightIQ",
       href: "https://github.com/md-asharaf/FightIQ",
-      dates: "Recent",
+      dates: "Aug 2026 - Present",
       active: true,
       type: "personal",
       description: "An interactive Generative AI platform built for UFC and MMA fans. Users can dive into deep conversations about MMA history, fighter stats, and complex rulebooks through an intelligent Chat Interface, or test their knowledge using a dynamic Quiz Generation Engine that creates tailored quizzes with real-time AI evaluations.",
@@ -427,7 +427,7 @@ export const DATA = {
     {
       title: "GameCenter",
       href: "https://n765v09mbd.execute-api.ap-south-1.amazonaws.com/swagger-ui/index.html",
-      dates: "Recent",
+      dates: "Aug 2026",
       active: true,
       type: "personal",
       description: "A comprehensive backend system that provides capabilities for creating and managing interactive quizzes, questions, and projects. It includes a dashboard, an admin interface, secure authentication, and advanced file management (folders and uploads) with the ability to process bulk data from CSV and Excel files.",
