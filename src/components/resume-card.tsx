@@ -55,11 +55,11 @@ export const ResumeCard = ({
       <div className="flex-grow ml-4 items-center flex-col group cursor-pointer" onClick={handleClick}>
         <CardHeader>
           <div className="flex items-start justify-between gap-x-2 text-base">
-            <div className="flex items-start gap-1">
+            <div className="flex items-start">
               <div className="flex flex-col items-start space-y-1">
                 {subtitle && <div className="font-sans text-xs sm:text-sm font-semibold">{subtitle}</div>}
                 <h3 className="inline-flex items-start leading-none text-xs">
-                  @ <Link href={href} className="hover:underline" onClick={(e) => e.stopPropagation()} target="_blank" rel="noopener noreferrer">
+                  <span className="mr-1 text-muted-foreground dark:text-muted-foreground/70">@</span> <Link href={href} className="hover:underline" onClick={(e) => e.stopPropagation()} target="_blank" rel="noopener noreferrer">
                     {title}
                   </Link>
                 </h3>
@@ -79,7 +79,7 @@ export const ResumeCard = ({
               )}
               <ChevronRightIcon
                 className={cn(
-                  "ml-1 size-4 transition-all duration-300 ease-out",
+                  "ml-1 size-4 shrink-0 transition-all duration-300 ease-out",
                   isExpanded ? "rotate-90" : "rotate-0"
                 )}
               />
