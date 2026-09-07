@@ -11,61 +11,81 @@ export const DATA = {
     "Backend-focused Software Engineer. I love building scalable systems and solving complex problems.",
   summary:
     "Backend-focused Software Engineer with production experience architecting scalable web platforms and APIs. I specialize in the Node.js and Spring Boot ecosystems, with a strong background in complex database design, real-time messaging, and secure financial workflows. My recent work involves delivering high-traffic client systems end-to-end, optimizing server performance, and standardizing containerized cloud deployments.",
-  avatarUrl: "https://ik.imagekit.io/yzxrxw4ib5/profile_2QzwM9QJt?updatedAt=1753862646104",
+  avatarUrl: "/assets/images/profile_2QzwM9QJt.png",
   resumeUrl: "https://drive.google.com/file/d/1Tt7F5S81vlFHbEF3v3MEU_HmjH_EOf30/view?usp=drive_link",
   skills: [
     {
       category: "Languages",
       items: [
-        { name: "TypeScript", icon: "https://skillicons.dev/icons?i=ts" },
-        { name: "JavaScript", icon: "https://skillicons.dev/icons?i=js" },
-        { name: "Java", icon: "https://skillicons.dev/icons?i=java" },
-        { name: "PHP", icon: "https://skillicons.dev/icons?i=php" },
-        { name: "Go", icon: "https://skillicons.dev/icons?i=go" },
-        { name: "Python", icon: "https://skillicons.dev/icons?i=py" },
-        { name: "C/C++", icon: "https://skillicons.dev/icons?i=cpp" },
+        { name: "TypeScript", icon: "/assets/icons/skill_ts.svg" },
+        { name: "JavaScript", icon: "/assets/icons/skill_js.svg" },
+        { name: "Java", icon: "/assets/icons/skill_java.svg" },
+        { name: "PHP", icon: "/assets/icons/skill_php.svg" },
+        { name: "Python", icon: "/assets/icons/skill_py.svg" },
+        { name: "Go", icon: "/assets/icons/skill_go.svg" },
+        { name: "C/C++", icon: "/assets/icons/skill_cpp.svg" },
       ]
     },
     {
       category: "Frontend",
       items: [
-        { name: "React.js", icon: "https://skillicons.dev/icons?i=react" },
-        { name: "Next.js", icon: "https://skillicons.dev/icons?i=nextjs" },
-        { name: "Redux Toolkit", icon: "https://skillicons.dev/icons?i=redux" },
-        { name: "TanStack Query", icon: "https://cdn.simpleicons.org/reactquery/FF4154" },
-        { name: "HTML5", icon: "https://skillicons.dev/icons?i=html" },
-        { name: "TailwindCSS", icon: "https://skillicons.dev/icons?i=tailwind" },
+        { name: "React.js", icon: "/assets/icons/skill_react.svg" },
+        { name: "Next.js", icon: "/assets/icons/skill_nextjs.svg" },
+        { name: "Redux Toolkit", icon: "/assets/icons/skill_redux.svg" },
+        { name: "TanStack Query", icon: "/assets/icons/simpleicon_reactquery.svg" },
+        { name: "HTML5", icon: "/assets/icons/skill_html.svg" },
+        { name: "TailwindCSS", icon: "/assets/icons/skill_tailwind.svg" },
       ]
     },
     {
       category: "Backend",
       items: [
-        { name: "Express.js", icon: "https://skillicons.dev/icons?i=express" },
-        { name: "Nest.js", icon: "https://skillicons.dev/icons?i=nestjs" },
-        { name: "Spring Boot & Microservices", icon: "https://skillicons.dev/icons?i=spring" },
-        { name: "JWT", icon: "https://cdn.simpleicons.org/jsonwebtokens/808080" },
-        { name: "WebSocket", icon: "https://cdn.simpleicons.org/socketdotio/808080" },
-        { name: "WebRTC", icon: "https://cdn.simpleicons.org/webrtc/808080" },
-        { name: "GraphQL", icon: "https://skillicons.dev/icons?i=graphql" },
-        { name: "REST APIs", icon: "https://cdn.simpleicons.org/fastapi/009688" },
+        { name: "Express.js", icon: "/assets/icons/skill_express.svg" },
+        { name: "Nest.js", icon: "/assets/icons/skill_nestjs.svg" },
+        { name: "Spring Boot & Microservices", icon: "/assets/icons/skill_spring.svg" },
+        { name: "FastAPI", icon: "/assets/icons/skill_fastapi.svg" },
+        { name: "JWT", icon: "/assets/icons/simpleicon_jsonwebtokens.svg" },
+        { name: "WebSocket", icon: "/assets/icons/simpleicon_socketdotio.svg" },
+        { name: "WebRTC", icon: "/assets/icons/simpleicon_webrtc.svg" },
+        { name: "GraphQL", icon: "/assets/icons/skill_graphql.svg" },
       ]
     },
     {
       category: "Databases",
       items: [
-        { name: "PostgreSQL", icon: "https://skillicons.dev/icons?i=postgres" },
-        { name: "MongoDB", icon: "https://skillicons.dev/icons?i=mongodb" },
-        { name: "MySQL", icon: "https://skillicons.dev/icons?i=mysql" },
-        { name: "Redis", icon: "https://skillicons.dev/icons?i=redis" },
+        { name: "PostgreSQL", icon: "/assets/icons/skill_postgres.svg" },
+        { name: "MongoDB", icon: "/assets/icons/skill_mongodb.svg" },
+        { name: "MySQL", icon: "/assets/icons/skill_mysql.svg" },
+        { name: "DynamoDB", icon: "/assets/icons/skill_dynamodb.svg" },
+        { name: "Redis", icon: "/assets/icons/skill_redis.svg" },
       ]
     },
     {
       category: "Cloud & Infra",
       items: [
-        { name: "AWS", icon: "https://skillicons.dev/icons?i=aws" },
-        { name: "Docker", icon: "https://skillicons.dev/icons?i=docker" },
-        { name: "RabbitMQ", icon: "https://skillicons.dev/icons?i=rabbitmq" },
-        { name: "Kafka", icon: "https://skillicons.dev/icons?i=kafka" },
+        { name: "EC2", icon: "/assets/icons/skill_ec2.svg" },
+        { name: "S3", icon: "/assets/icons/skill_s3.svg" },
+        { name: "IAM", icon: "/assets/icons/skill_iam.svg" },
+        { name: "Lambda", icon: "/assets/icons/skill_lambda.svg" },
+        { name: "ECS", icon: "/assets/icons/skill_ecs.svg" },
+        { name: "SQS", icon: "/assets/icons/skill_sqs.svg" },
+        { name: "ECR", icon: "/assets/icons/skill_ecr.svg" },
+        { name: "API Gateway", icon: "/assets/icons/skill_apigateway.svg" },
+        { name: "CloudWatch", icon: "/assets/icons/skill_cloudwatch.svg" },
+        { name: "Docker", icon: "/assets/icons/skill_docker.svg" },
+        { name: "RabbitMQ", icon: "/assets/icons/skill_rabbitmq.svg" },
+        { name: "Kafka", icon: "/assets/icons/skill_kafka.svg" },
+      ]
+    },
+    {
+      category: "GenAI",
+      items: [
+        { name: "LangChain", icon: "/assets/icons/skill_langchain.svg" },
+        { name: "LangGraph", icon: "/assets/icons/skill_langgraph.svg" },
+        { name: "Gemini", icon: "/assets/icons/simpleicon_googlegemini.svg" },
+        { name: "Groq", icon: "/assets/icons/skill_groq.svg" },
+        { name: "Vercel AI", icon: "/assets/icons/skill_vercel.svg" },
+        { name: "RAG", icon: "/assets/icons/skill_rag.svg" },
       ]
     }
   ],
@@ -120,7 +140,7 @@ export const DATA = {
       badges: ["intern"],
       location: "Remote",
       title: "Full Stack Developer",
-      logoUrl: "https://ik.imagekit.io/yzxrxw4ib5/techwithjoshi.jpg",
+      logoUrl: "/assets/images/techwithjoshi.jpg",
       start: "Oct 2025",
       end: "Mar 2026",
       description:
@@ -132,7 +152,7 @@ export const DATA = {
       badges: ["intern"],
       location: "Remote",
       title: "Backend Developer",
-      logoUrl: "https://ik.imagekit.io/yzxrxw4ib5/techsolace.jpg?updatedAt=1753858721765",
+      logoUrl: "/assets/images/techsolace.jpg",
       start: "Jun 2025",
       end: "Sep 2025",
       description:
@@ -144,7 +164,7 @@ export const DATA = {
       href: "https://www.nazrasoftware.com",
       location: "Remote",
       title: "Full Stack Developer",
-      logoUrl: "https://ik.imagekit.io/yzxrxw4ib5/nazrasoft.png?updatedAt=1753858703718",
+      logoUrl: "/assets/images/nazrasoft.png",
       start: "Oct 2024",
       end: "Mar 2025",
       description:
@@ -156,7 +176,7 @@ export const DATA = {
       school: "Konark Institute of Science and Technology",
       href: "https://kist.ac.in/",
       degree: "B.Tech in Computer Science and Engineering",
-      logoUrl: "https://ik.imagekit.io/yzxrxw4ib5/kist.jpeg?updatedAt=1753858736541",
+      logoUrl: "/assets/images/kist.jpeg",
       start: "Aug 2022",
       end: "Jun 2026",
       location: "Bhubaneswar, Odisha",
@@ -197,7 +217,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://ik.imagekit.io/yzxrxw4ib5/2026-05-27-112845_hyprshot.png",
+      image: "/assets/images/flinzo.png",
       video: "",
     },
     {
@@ -215,7 +235,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      image: "https://ik.imagekit.io/yzxrxw4ib5/2026-07-31-150414_hyprshot.png",
+      image: "/assets/images/pravesh-ecom.png",
       video: "",
     },
     {
@@ -241,7 +261,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://ik.imagekit.io/yzxrxw4ib5/2026-05-27-112952_hyprshot.png",
+      image: "/assets/images/engtuwa.png",
       video: "",
     },
     {
@@ -266,7 +286,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      image: "https://ik.imagekit.io/yzxrxw4ib5/2026-05-27-113041_hyprshot.png",
+      image: "/assets/images/ram-pharmacy.png",
       video: "",
     },
     {
@@ -284,7 +304,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      image: "https://ik.imagekit.io/yzxrxw4ib5/2026-07-31-150240_hyprshot.png",
+      image: "/assets/images/qryzen.png",
       video: "",
     },
     {
@@ -313,11 +333,11 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://ik.imagekit.io/yzxrxw4ib5/2026-05-27-113449_hyprshot.png",
+      image: "/assets/images/cibil-gst.png",
       video: "",
     },
     {
-      title: "Impact Leader",
+      title: "One Purpose",
       href: "https://leader.techwithjoshi.in/api-docs",
       dates: "Nov 2025 - Mar 2026",
       active: true,
@@ -331,7 +351,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      image: "https://ik.imagekit.io/yzxrxw4ib5/2026-07-31-152515_hyprshot.png",
+      image: "/assets/images/one-purpos.png",
       video: "",
     },
     // Personal Projects
@@ -368,7 +388,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         }
       ],
-      image: "https://ik.imagekit.io/yzxrxw4ib5/2025-07-30-131021_hyprshot.png?updatedAt=1753861312344",
+      image: "/assets/images/tubex.png",
       video: "",
     },
     {
@@ -398,7 +418,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         }
       ],
-      image: "https://ik.imagekit.io/yzxrxw4ib5/swappy-20260804_022057.png",
+      image: "/assets/images/breathe-esg.png",
       video: "",
     },
     {
@@ -421,12 +441,12 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "https://ik.imagekit.io/yzxrxw4ib5/2025-07-30-132146_hyprshot.png?updatedAt=1753861940113",
+      image: "/assets/images/restaurant-booking.png",
       video: "",
     },
     {
-      title: "Mystery Message",
-      href: "https://next-mystery-message.vercel.app",
+      title: "Inkognito",
+      href: "https://inkoggnito.vercel.app",
       dates: "Jul 2024 - Aug 2024",
       active: true,
       type: "personal",
@@ -435,16 +455,16 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://next-mystery-message.vercel.app",
+          href: "https://inkoggnito.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/md-asharaf/next-mystery-message",
+          href: "https://github.com/md-asharaf/inkognito",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "https://ik.imagekit.io/yzxrxw4ib5/2025-07-30-130948_hyprshot.png?updatedAt=1753861311382",
+      image: "/assets/images/inkognito.png",
       video: "",
     }
   ],
@@ -456,8 +476,8 @@ export const DATA = {
       description:
         "Developed a web application promoting rural tourism in India by connecting local artisans with tourists. The app allows users to book tours, buy local handicrafts, and learn about the culture and traditions of rural India.",
       image:
-        "https://ik.imagekit.io/yzxrxw4ib5/infosys.jpg?updatedAt=1754232388884",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+        "/assets/images/infosys.jpg",
+      mlh: "/assets/images/mlh-trust-badge-2019-white.svg",
       links: [{
         title: "Source",
         href: "https://github.com/md-asharaf/effective-carnival",

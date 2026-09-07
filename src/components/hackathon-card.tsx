@@ -46,7 +46,7 @@ export function HackathonCard({
         {location && (
           <div><p className="text-sm text-muted-foreground flex items-center gap-1">
             <MapPinIcon className="size-3" />
-            <div>{location}</div>
+            <span>{location}</span>
           </p></div>
         )}
       </div>
