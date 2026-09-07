@@ -11,7 +11,7 @@ export const DATA = {
     "Backend-focused Software Engineer. I love building scalable systems and solving complex problems.",
   summary:
     "Backend-focused Software Engineer with production experience architecting scalable web platforms and APIs. I specialize in the Node.js and Spring Boot ecosystems, with a strong background in complex database design, real-time messaging, and secure financial workflows. My recent work involves delivering high-traffic client systems end-to-end, optimizing server performance, and standardizing containerized cloud deployments.",
-  avatarUrl: "/assets/images/profile_2QzwM9QJt.png",
+  avatarUrl: "/assets/images/profile-pic.png",
   resumeUrl: "https://drive.google.com/file/d/1Tt7F5S81vlFHbEF3v3MEU_HmjH_EOf30/view?usp=drive_link",
   skills: [
     {
@@ -63,6 +63,9 @@ export const DATA = {
     {
       category: "Cloud & Infra",
       items: [
+        { name: "Docker", icon: "/assets/icons/skill_docker.svg" },
+        { name: "RabbitMQ", icon: "/assets/icons/skill_rabbitmq.svg" },
+        { name: "Kafka", icon: "/assets/icons/skill_kafka.svg" },
         { name: "EC2", icon: "/assets/icons/skill_ec2.svg" },
         { name: "S3", icon: "/assets/icons/skill_s3.svg" },
         { name: "IAM", icon: "/assets/icons/skill_iam.svg" },
@@ -72,9 +75,6 @@ export const DATA = {
         { name: "ECR", icon: "/assets/icons/skill_ecr.svg" },
         { name: "API Gateway", icon: "/assets/icons/skill_apigateway.svg" },
         { name: "CloudWatch", icon: "/assets/icons/skill_cloudwatch.svg" },
-        { name: "Docker", icon: "/assets/icons/skill_docker.svg" },
-        { name: "RabbitMQ", icon: "/assets/icons/skill_rabbitmq.svg" },
-        { name: "Kafka", icon: "/assets/icons/skill_kafka.svg" },
       ]
     },
     {
@@ -392,6 +392,93 @@ export const DATA = {
       video: "",
     },
     {
+      title: "FightIQ",
+      href: "https://github.com/md-asharaf/FightIQ",
+      dates: "Recent",
+      active: true,
+      type: "personal",
+      description: "An interactive Generative AI platform built for UFC and MMA fans. Users can dive into deep conversations about MMA history, fighter stats, and complex rulebooks through an intelligent Chat Interface, or test their knowledge using a dynamic Quiz Generation Engine that creates tailored quizzes with real-time AI evaluations.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "FastAPI",
+        "PostgreSQL",
+        "SQLAlchemy",
+        "pgvector",
+        "Gemini",
+        "Ragas"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://fightiq-delta.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/md-asharaf/fightiq",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "/assets/images/fightiq.png",
+      video: "",
+    },
+    {
+      title: "GameCenter",
+      href: "https://n765v09mbd.execute-api.ap-south-1.amazonaws.com/swagger-ui/index.html",
+      dates: "Recent",
+      active: true,
+      type: "personal",
+      description: "A comprehensive backend system that provides capabilities for creating and managing interactive quizzes, questions, and projects. It includes a dashboard, an admin interface, secure authentication, and advanced file management (folders and uploads) with the ability to process bulk data from CSV and Excel files.",
+      technologies: [
+        "Spring Boot",
+        "MySQL",
+        "AWS Lambda",
+        "AWS API Gateway",
+        "AWS S3",
+        "Flyway",
+        "JWT"
+      ],
+      links: [
+        {
+          type: "Docs",
+          href: "https://n765v09mbd.execute-api.ap-south-1.amazonaws.com/swagger-ui/index.html",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/md-asharaf/gamecenter-backend",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "/assets/images/gamecenter.png",
+      video: "",
+    },
+    {
+      title: "Inkognito",
+      href: "https://inkoggnito.vercel.app",
+      dates: "Jul 2024 - Aug 2024",
+      active: true,
+      type: "personal",
+      description: "An anonymous chat platform where users communicate through unique usernames, supported by an AI-powered assistant that generates creative message suggestions.",
+      technologies: ["Next.js", "TailwindCSS", "NextAuth", "MongoDB", "Gemini AI"],
+      links: [
+        {
+          type: "Website",
+          href: "https://inkoggnito.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/md-asharaf/inkognito",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/assets/images/inkognito.png",
+      video: "",
+    },
+    {
       title: "BreatheESG",
       href: "https://breatheesg.asharaf.tech",
       dates: "Jun 2026",
@@ -442,29 +529,6 @@ export const DATA = {
         },
       ],
       image: "/assets/images/restaurant-booking.png",
-      video: "",
-    },
-    {
-      title: "Inkognito",
-      href: "https://inkoggnito.vercel.app",
-      dates: "Jul 2024 - Aug 2024",
-      active: true,
-      type: "personal",
-      description: "An anonymous chat platform where users communicate through unique usernames, supported by an AI-powered assistant that generates creative message suggestions.",
-      technologies: ["Next.js", "TailwindCSS", "NextAuth", "MongoDB", "Gemini AI"],
-      links: [
-        {
-          type: "Website",
-          href: "https://inkoggnito.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/md-asharaf/inkognito",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/assets/images/inkognito.png",
       video: "",
     }
   ],
