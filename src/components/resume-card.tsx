@@ -54,34 +54,35 @@ export const ResumeCard = ({
       </div>
       <div className="flex-grow ml-4 items-center flex-col group cursor-pointer" onClick={handleClick}>
         <CardHeader>
-          <div className="flex items-center justify-between gap-x-2 text-base">
-            <div>
-              <h3 className="inline-flex items-start font-semibold leading-none text-xs sm:text-sm">
-                <Link href={href} className="hover:underline" onClick={(e) => e.stopPropagation()} target="_blank" rel="noopener noreferrer">
-                  {title}
-                </Link>
-                {badges && (
-                  <span className="ml-2 inline-flex gap-x-1">
-                    {badges.map((badge, index) => (
-                      <Badge
-                        variant="outline"
-                        className="px-2 py-0.5 align-middle text-xs bg-transparent text-black border-black/30 hover:text-[#ff6188] hover:border-[#ff6188] dark:text-white dark:border-white/30 dark:hover:text-[#ff6188] dark:hover:border-[#ff6188] transition-colors duration-200"
-                        key={index}
-                      >
-                        {badge}
-                      </Badge>
-                    ))}
-                  </span>
+          <div className="flex items-start justify-between gap-x-2 text-base">
+            <div className="flex items-start gap-1">
+              <div className="flex flex-col items-start space-y-1">
+                {subtitle && <div className="font-sans text-xs sm:text-sm font-semibold">{subtitle}</div>}
+                <h3 className="inline-flex items-start leading-none text-xs">
+                  @ <Link href={href} className="hover:underline" onClick={(e) => e.stopPropagation()} target="_blank" rel="noopener noreferrer">
+                    {title}
+                  </Link>
+                </h3>
+              </div>
+              {badges && (
+                <span className="ml-2 inline-flex gap-x-1">
+                  {badges.map((badge, index) => (
+                    <Badge
+                      variant="outline"
+                      className="px-2 py-0.5 align-middle text-xs bg-transparent text-black border-black/30 hover:text-[#ff6188] hover:border-[#ff6188] dark:text-white dark:border-white/30 dark:hover:text-[#ff6188] dark:hover:border-[#ff6188] transition-colors duration-200"
+                      key={index}
+                    >
+                      {badge}
+                    </Badge>
+                  ))}
+                </span>
+              )}
+              <ChevronRightIcon
+                className={cn(
+                  "ml-1 size-4 transition-all duration-300 ease-out",
+                  isExpanded ? "rotate-90" : "rotate-0"
                 )}
-
-                <ChevronRightIcon
-                  className={cn(
-                    "ml-1 size-4 transition-all duration-300 ease-out",
-                    isExpanded ? "rotate-90" : "rotate-0"
-                  )}
-                />
-              </h3>
-              {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
+              />
             </div>
             <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
               <div>{period}</div>
