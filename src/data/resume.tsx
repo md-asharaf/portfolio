@@ -346,9 +346,9 @@ export const DATA = {
       technologies: ["Next.js", "TailwindCSS", "Express.js", "MongoDB", "Redis", "AWS S3", "WebSocket", "Google Calendar API", "Gmail API", "Google OAuth"],
       links: [
         {
-          type: "Website",
+          type: "Docs",
           href: "https://leader.techwithjoshi.in/api-docs",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.docs className="size-3" />,
         }
       ],
       image: "/assets/images/one-purpos.png",
@@ -444,7 +444,7 @@ export const DATA = {
         {
           type: "Docs",
           href: "https://n765v09mbd.execute-api.ap-south-1.amazonaws.com/swagger-ui/index.html",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.docs className="size-3" />,
         },
         {
           type: "Source",
@@ -518,9 +518,9 @@ export const DATA = {
       technologies: ["Nest.js", "PostgreSQL", "Prisma", "Resend", "Passport OAuth"],
       links: [
         {
-          type: "Website",
+          type: "Docs",
           href: "https://restaurant-table-booking-jq1q.onrender.com/api/docs",
-          icon: <Icons.globe className="size-3" />,
+          icon: <Icons.docs className="size-3" />,
         },
         {
           type: "Source",

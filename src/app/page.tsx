@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { HackathonCard } from "@/components/hackathon-card";
+import { Icons } from "@/components/icons";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { Projects } from "@/components/projects-section";
@@ -34,9 +35,7 @@ export default function Page() {
                 <div className="flex flex-wrap gap-2 mt-1">
                   <Link href={DATA.locationLink} target="_blank" rel="noopener noreferrer">
                     <Badge variant="outline" className="flex items-center gap-1 hover:border-[#ff6188] transition-colors group cursor-pointer">
-                      <svg className="size-3 transition-colors group-hover:text-[#ff6188]" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor" />
-                      </svg>
+                      <Icons.location className="size-3 transition-colors group-hover:text-[#ff6188]" />
                       <span className="transition-colors group-hover:text-[#ff6188]">
                         {DATA.location}
                       </span>
@@ -223,7 +222,7 @@ export default function Page() {
                   href={DATA.contact.social.X.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#b16286] dark:text-[#ff6188] hover:text-[#d79921] dark:hover:text-[#ffd866] hover:underline transition-colors duration-300 font-semibold inline-block hover:scale-105"
+                  className="text-[#b16286] dark:text-[#ff6188] hover:text-[#d79921] dark:hover:text-[#ffd866] hover:underline transition-colors duration-300 font-semibold inline-block hover:scale-105 hover:mx-1.5"
                 >
                   with a direct question on twitter
                 </Link>{" "}
@@ -232,7 +231,7 @@ export default function Page() {
                   href={DATA.contact.social.Discord.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-[#458588] dark:text-[#a9dc76] hover:text-[#b16286] dark:hover:text-[#ff6188] hover:underline transition-colors duration-300 font-semibold inline-block hover:scale-105"
+                  className="text-[#458588] dark:text-[#a9dc76] hover:text-[#b16286] dark:hover:text-[#ff6188] hover:underline transition-colors duration-300 font-semibold inline-block hover:scale-105 hover:mx-1.5"
                 >
                   message me on Discord
                 </Link>
